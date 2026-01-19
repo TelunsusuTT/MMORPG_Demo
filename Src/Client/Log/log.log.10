@@ -1,0 +1,22 @@
+2026-01-18 21:24:13,951 [ 1] INFO  Unity: LoadingManager start
+2026-01-18 21:24:17,058 [ 1] INFO  Unity: DataManager > DataManager()
+2026-01-18 21:24:22,826 [ 1] INFO  Unity: UserLoginRequest::user :Test09 psw:123
+2026-01-18 21:24:22,828 [ 1] INFO  Unity: ConnectToServer() Start 
+2026-01-18 21:24:22,832 [ 1] INFO  Unity: DoConnect
+2026-01-18 21:24:22,833 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2026-01-18 21:24:22,836 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2026-01-18 21:24:22,839 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2026-01-18 21:24:22,918 [ 1] INFO  Unity: OnLogin:Success [None]
+2026-01-18 21:24:22,925 [ 1] INFO  Unity: LoadLevel: CharSelect
+2026-01-18 21:24:23,006 [ 1] INFO  Unity: LevelLoadCompleted:1
+2026-01-18 21:24:27,340 [ 1] INFO  Unity: Select Char:[1]测试2[Warrior], idx = 0
+2026-01-18 21:24:35,172 [ 1] INFO  Unity: Select Char:[2]是是哈[Archer], idx = 1
+2026-01-18 21:24:52,622 [ 1] INFO  Unity: Select Char:[3]是是哈[Warrior], idx = 2
+2026-01-18 21:24:55,638 [ 1] INFO  Unity: Select Char:[4]New2[Archer], idx = 3
+2026-01-18 21:25:30,213 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2026-01-18 21:25:30,213 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+

@@ -1,0 +1,60 @@
+2026-01-19 21:32:11,995 [ 1] INFO  Unity: LoadingManager start
+2026-01-19 21:32:15,030 [ 1] INFO  Unity: DataManager > DataManager()
+2026-01-19 21:32:20,366 [ 1] INFO  Unity: UserLoginRequest::user :Test09 psw:123
+2026-01-19 21:32:20,368 [ 1] INFO  Unity: ConnectToServer() Start 
+2026-01-19 21:32:20,371 [ 1] INFO  Unity: DoConnect
+2026-01-19 21:32:20,373 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2026-01-19 21:32:20,376 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2026-01-19 21:32:20,379 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2026-01-19 21:32:21,265 [ 1] INFO  Unity: OnLogin:Success [None]
+2026-01-19 21:32:21,275 [ 1] INFO  Unity: LoadLevel: CharSelect
+2026-01-19 21:32:21,432 [ 1] INFO  Unity: LevelLoadCompleted:1
+2026-01-19 21:32:22,519 [ 1] INFO  Unity: Select Char:[3] « «π˛[Warrior], idx = 2
+2026-01-19 21:32:22,881 [ 1] INFO  Unity: Select Char:[2] « «π˛[Archer], idx = 1
+2026-01-19 21:32:23,456 [ 1] INFO  Unity: Select Char:[1]≤‚ ‘2[Warrior], idx = 0
+2026-01-19 21:32:24,451 [ 1] INFO  Unity: Select Char:[2] « «π˛[Archer], idx = 1
+2026-01-19 21:32:25,248 [ 1] INFO  Unity: Select Char:[5]New2[Warrior], idx = 4
+2026-01-19 21:32:26,011 [ 1] INFO  Unity: Select Char:[6]≤‚ ‘9[Archer], idx = 5
+2026-01-19 21:32:26,722 [ 1] INFO  Unity: Select Char:[7]≤‚ ‘10[Archer], idx = 6
+2026-01-19 21:32:27,727 [ 1] INFO  Unity: Select Char:[8]≤‚ ‘11[Wizard], idx = 7
+2026-01-19 21:32:28,253 [ 1] INFO  Unity: Select Char:[7]≤‚ ‘10[Archer], idx = 6
+2026-01-19 21:32:28,819 [ 1] INFO  Unity: Select Char:[6]≤‚ ‘9[Archer], idx = 5
+2026-01-19 21:32:29,665 [ 1] INFO  Unity: Select Char:[8]≤‚ ‘11[Wizard], idx = 7
+2026-01-19 21:32:30,061 [ 1] INFO  Unity: Select Char:[9]≤‚ ‘12[Wizard], idx = 8
+2026-01-19 21:32:30,870 [ 1] INFO  Unity: Select Char:[10]A1[Archer], idx = 9
+2026-01-19 21:32:31,234 [ 1] INFO  Unity: Select Char:[11] ≤‚ ‘13[Wizard], idx = 10
+2026-01-19 21:32:32,907 [ 1] INFO  Unity: Select Char:[2] « «π˛[Archer], idx = 1
+2026-01-19 21:32:33,261 [ 1] INFO  Unity: Select Char:[2] « «π˛[Archer], idx = 1
+2026-01-19 21:32:33,493 [ 1] INFO  Unity: Select Char:[3] « «π˛[Warrior], idx = 2
+2026-01-19 21:32:33,865 [ 1] INFO  Unity: Select Char:[3] « «π˛[Warrior], idx = 2
+2026-01-19 21:32:34,227 [ 1] INFO  Unity: Select Char:[4]New2[Archer], idx = 3
+2026-01-19 21:32:40,475 [ 1] INFO  Unity: SendCharacterCreate::charName :111 cls:Warrior
+2026-01-19 21:32:40,536 [ 1] INFO  Unity: OnUserCreateCharacter:Success [None]
+2026-01-19 21:32:42,468 [ 1] INFO  Unity: Select Char:[0]111[Warrior], idx = 12
+2026-01-19 21:32:42,977 [ 1] INFO  Unity: Select Char:[0]≤‚ ‘14[Archer], idx = 11
+2026-01-19 21:32:43,333 [ 1] INFO  Unity: Select Char:[0] ≤‚ ‘13[Wizard], idx = 10
+2026-01-19 21:32:43,714 [ 1] INFO  Unity: Select Char:[0]≤‚ ‘14[Archer], idx = 11
+2026-01-19 21:32:44,123 [ 1] INFO  Unity: Select Char:[0]111[Warrior], idx = 12
+2026-01-19 21:32:44,949 [ 1] INFO  Unity: Select Char:[0]≤‚ ‘14[Archer], idx = 11
+2026-01-19 21:32:45,359 [ 1] INFO  Unity: Select Char:[0] ≤‚ ‘13[Wizard], idx = 10
+2026-01-19 21:32:46,965 [ 1] INFO  Unity: Select Char:[0]≤‚ ‘2[Warrior], idx = 0
+2026-01-19 21:32:47,411 [ 1] INFO  Unity: Select Char:[0] « «π˛[Archer], idx = 1
+2026-01-19 21:32:47,783 [ 1] INFO  Unity: Select Char:[0] « «π˛[Archer], idx = 1
+2026-01-19 21:32:48,100 [ 1] INFO  Unity: Select Char:[0] « «π˛[Warrior], idx = 2
+2026-01-19 21:32:48,657 [ 1] INFO  Unity: Select Char:[0] « «π˛[Warrior], idx = 2
+2026-01-19 21:32:49,366 [ 1] INFO  Unity: Select Char:[0]New2[Archer], idx = 3
+2026-01-19 21:32:50,170 [ 1] INFO  Unity: Select Char:[0]≤‚ ‘9[Archer], idx = 5
+2026-01-19 21:32:50,982 [ 1] INFO  Unity: Select Char:[0]≤‚ ‘10[Archer], idx = 6
+2026-01-19 21:32:51,413 [ 1] INFO  Unity: Select Char:[0]≤‚ ‘11[Wizard], idx = 7
+2026-01-19 21:32:52,186 [ 1] INFO  Unity: Select Char:[0]≤‚ ‘12[Wizard], idx = 8
+2026-01-19 21:32:52,879 [ 1] INFO  Unity: Select Char:[0]A1[Archer], idx = 9
+2026-01-19 21:32:53,305 [ 1] INFO  Unity: Select Char:[0]A1[Archer], idx = 9
+2026-01-19 21:32:53,603 [ 1] INFO  Unity: Select Char:[0] ≤‚ ‘13[Wizard], idx = 10
+2026-01-19 21:32:54,421 [ 1] INFO  Unity: Select Char:[0]≤‚ ‘14[Archer], idx = 11
+2026-01-19 21:32:55,489 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2026-01-19 21:32:55,490 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+

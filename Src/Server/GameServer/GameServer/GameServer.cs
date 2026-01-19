@@ -21,10 +21,12 @@ namespace GameServer
         NetService network;
         public bool Init()
         {
+            int Port = Properties.Settings.Default.ServerPort;
             network = new NetService();
-            network.Init(8000);
-            HelloWorldService.Instance.Init();
-            //DBService.Instance.Init();
+            network.Init(Port);
+            //HelloWorldService.Instance.Init();
+            DBService.Instance.Init();
+            UserService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
             return true;
         }
@@ -32,7 +34,7 @@ namespace GameServer
         public void Start()
         {
             network.Start();
-            HelloWorldService.Instance.Start();
+            //HelloWorldService.Instance.Start();
             running = true;
             thread.Start();
         }
