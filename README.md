@@ -1,3 +1,2 @@
-# 《极世界》MMORPG
+# MMORPG demo - 锐意制作中！
 
-《极世界》MMORPG 教学项目
